@@ -13,7 +13,7 @@ const UniswapAddLiquidity = async (deadLine) => {
         new BN('5000000000000000000').toString(),
         new BN('5000000000000000000').toString(),
         new BN('100000000000000000').toString(),
-        '0xE2f86Bd67A7daE72A4868b6B0AB32d9750ccb811', //owner address
+        '', //owner address
         deadLine,
       )
       .send({
